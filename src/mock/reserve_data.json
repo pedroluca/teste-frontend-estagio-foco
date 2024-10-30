@@ -1,0 +1,95 @@
+{
+  "available_rooms": [
+    {
+      "id": "e82dc4b8-e38e-4770-a0b7-8eda75e94b57",
+      "name": "Duplo",
+      "number": "010",
+      "facilities": ["TV", "Ar condicionado", "Wi-Fi gratuito", "Frigobar"],
+      "status": "available"
+    },
+    {
+      "id": "a1f5a771-b9f4-4e1b-9bfc-5dcb4a0c98d0",
+      "name": "Triplo",
+      "number": "020",
+      "facilities": [
+        "TV",
+        "Ar condicionado",
+        "Wi-Fi gratuito",
+        "Frigobar",
+        "Secador de cabelo"
+      ],
+      "status": "available"
+    },
+    {
+      "id": "d15bc6d1-cb9d-43f5-b843-e16f5a1ab0cb",
+      "name": "VIP",
+      "number": "030",
+      "facilities": [
+        "TV Smart",
+        "Ar condicionado",
+        "Wi-Fi de alta velocidade",
+        "Frigobar completo",
+        "Banheira",
+        "Cofre digital",
+        "Vista panorâmica"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "id": "cf43b5bc-9d68-4a23-a8e2-5a2f3e1bfecd",
+      "name": "Presidencial",
+      "number": "040",
+      "facilities": [
+        "TV Smart 4K",
+        "Ar condicionado central",
+        "Wi-Fi de alta velocidade",
+        "Frigobar completo",
+        "Banheira de hidromassagem",
+        "Cofre digital",
+        "Serviço de quarto 24h",
+        "Máquina de café",
+        "Sala de estar privativa"
+      ],
+      "status": "reserved"
+    },
+    {
+      "id": "b67a2d5a-fd49-45e3-9c02-9cdb6c4e2d0f",
+      "name": "Exclusive",
+      "number": "050",
+      "facilities": [
+        "TV Smart 4K",
+        "Ar condicionado central",
+        "Wi-Fi de alta velocidade",
+        "Frigobar completo com bebidas premium",
+        "Banheira de hidromassagem",
+        "Cofre digital",
+        "Serviço de mordomo exclusivo",
+        "Máquina de café espresso",
+        "Sala de estar privativa",
+        "Espaço de trabalho",
+        "Cama King-size",
+        "Vista privilegiada"
+      ],
+      "status": "reserved"
+    }
+  ],
+  "reserve_list": [
+    {
+      "id": "f031297c-5316-4083-894e-534874568631",
+      "responsible": {
+        "name": "João Silva",
+        "document": "12345678901",
+        "email": "joao.silva@email.com",
+        "phone": "11999999999"
+      },
+      "checkin_date": "2024-12-25",
+      "checkout_date": "2024-12-28",
+      "room": {
+        "id": "e82dc4b8-e38e-4770-a0b7-8eda75e94b57",
+        "name": "Duplo",
+        "number": "010"
+      },
+      "status": "confirmed"
+    }
+  ]
+}

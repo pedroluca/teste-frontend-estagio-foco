@@ -1,0 +1,148 @@
+{
+  "data": {
+    "resume": {
+      "reserves": 23,
+      "canceled": 1,
+      "paid": 12500,
+      "available_rooms": 20,
+      "occupied_rooms": 3
+    },
+    "rooms": [
+      {
+        "id": "e82dc4b8-e38e-4770-a0b7-8eda75e94b57",
+        "name": "Duplo",
+        "accommodations": {
+          "total": 30,
+          "reserved": 2
+        },
+        "pricing": 180,
+        "offers": 2
+      },
+      {
+        "id": "a1f5a771-b9f4-4e1b-9bfc-5dcb4a0c98d0",
+        "name": "Triplo",
+        "accommodations": {
+          "total": 20,
+          "reserved": 0
+        },
+        "pricing": 250,
+        "offers": 0
+      },
+      {
+        "id": "d15bc6d1-cb9d-43f5-b843-e16f5a1ab0cb",
+        "name": "VIP",
+        "accommodations": {
+          "total": 10,
+          "reserved": 1
+        },
+        "pricing": 350,
+        "offers": 1
+      },
+      {
+        "id": "cf43b5bc-9d68-4a23-a8e2-5a2f3e1bfecd",
+        "name": "Presidencial",
+        "accommodations": {
+          "total": 5,
+          "reserved": 0
+        },
+        "pricing": 500,
+        "offers": 0
+      },
+      {
+        "id": "b67a2d5a-fd49-45e3-9c02-9cdb6c4e2d0f",
+        "name": "Exclusive",
+        "accommodations": {
+          "total": 2,
+          "reserved": 0
+        },
+        "pricing": 800,
+        "offers": 0
+      }
+    ],
+    "rooms_status": {
+      "occupied_rooms": {
+        "total": 104,
+        "clean": 60,
+        "dirty": 4,
+        "inspected": 64
+      },
+      "available_rooms": {
+        "total": 20,
+        "clean": 12,
+        "dirty": 2,
+        "inspected": 14
+      }
+    },
+    "occupancy_rate": 80,
+    "occupancy_statistics": [
+      {
+        "date": "2023-05-01",
+        "occupancy_rate": 85
+      },
+      {
+        "date": "2023-06-01",
+        "occupancy_rate": 68
+      },
+      {
+        "date": "2023-07-01",
+        "occupancy_rate": 92
+      },
+      {
+        "date": "2023-08-01",
+        "occupancy_rate": 75
+      },
+      {
+        "date": "2023-09-01",
+        "occupancy_rate": 80
+      },
+      {
+        "date": "2023-10-01",
+        "occupancy_rate": 72
+      },
+      {
+        "date": "2023-11-01",
+        "occupancy_rate": 88
+      },
+      {
+        "date": "2023-12-01",
+        "occupancy_rate": 95
+      },
+      {
+        "date": "2024-01-01",
+        "occupancy_rate": 78
+      },
+      {
+        "date": "2024-02-01",
+        "occupancy_rate": 82
+      },
+      {
+        "date": "2024-03-01",
+        "occupancy_rate": 86
+      },
+      {
+        "date": "2024-04-01",
+        "occupancy_rate": 90
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Jão Souza",
+        "date": "2023-12-15",
+        "rating": 5,
+        "comment": "Excelente hotel, recomendo!"
+      },
+      {
+        "name": "Maria Silva",
+        "date": "2023-12-20",
+        "rating": 4,
+        "comment": "Ótimo hotel, mas o café da manhã poderia ser melhor."
+      },
+      {
+        "name": "Pedro Santos",
+        "date": "2023-12-25",
+        "rating": 3,
+        "comment": "O hotel é bom, mas o atendimento poderia ser mais atencioso."
+      }
+    ]
+  }
+}
