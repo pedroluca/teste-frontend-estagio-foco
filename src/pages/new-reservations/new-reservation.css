@@ -1,0 +1,11 @@
+.new-reservation-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.new-reservation-container h1 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
