@@ -1,0 +1,49 @@
+.headerbar {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.headerbar-search {
+  display: flex;
+  width: 35%;
+  align-items: center;
+  background-color: var(--grey-100);
+  border-radius: 0.25rem;
+  padding: .5rem 1rem;
+  border: 1px solid var(--grey-200);
+}
+
+.headerbar-search input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  flex: 1;
+  margin-left: .5rem;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
+.headerbar-search input::placeholder {
+  color: var(--grey-600);
+}
+
+.headerbar-search svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  color: var(--grey-500);
+}
+
+.headerbar-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto;
+  padding-right: 1rem;
+}
+
+.headerbar-icons svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  cursor: pointer;
+}
