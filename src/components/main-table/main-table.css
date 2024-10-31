@@ -1,0 +1,40 @@
+
+.reservations-table-container {
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid var(--grey-100);
+}
+
+.reservations-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.reservations-table tr:not(:last-child) {
+  border-bottom: 1px solid var(--grey-100);
+}
+
+.reservations-table th, td {
+  padding: 1rem 2rem;
+}
+
+.reservations-table-last-cell {
+  text-align: right;
+  padding: .5rem;
+}
+
+.reservations-table-last-cell img {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.reservations-table th {
+  background-color: var(--grey-100);
+}
+
+.reservations-table-strong-cell {
+  font-weight: 600;
+  color: var(--grey-700)
+}

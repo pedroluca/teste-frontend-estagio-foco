@@ -1,0 +1,19 @@
+.status-field {
+  padding: .3rem .7rem;
+  border-radius: 50px;
+}
+
+.status-canceled {
+  background-color: var(--red-100);
+  color: var(--red-500);
+}
+
+.status-pending {
+  background-color: var(--warning-100);
+  color: var(--warning-500);
+}
+
+.status-confirmed {
+  background-color: var(--success-100);
+  color: var(--success-500);
+}
