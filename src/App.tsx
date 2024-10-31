@@ -1,20 +1,28 @@
+import './index.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import './app.css'
-import { Home } from './pages/home'
-import { NewReservation } from './pages/new-reservation'
+import { Dashboard } from './pages/dashboard/dashboard'
+import { NewReservation } from './pages/new-reservations/new-reservation'
+import { Reservations } from './pages/reservations/reservations'
+import { Sidebar } from './components/sidebar/sidebar'
+import { NotFound } from './pages/not-found/not-found'
+import { Headerbar } from './components/headerbar/headerbar'
 
-function App() {
+export function App() {
 
   return (
-    <>
+    <div className='page-holder'>
       <Router>
-        <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/nova-reserva" Component={NewReservation} />
-        </Routes>
+        <Sidebar />
+        <main className='main-screen-template'>
+          <Headerbar />
+          <Routes>
+            <Route path="/" Component={Dashboard} />
+            <Route path="/reservas" Component={Reservations} />
+            <Route path="/nova-reserva" Component={NewReservation} />
+            <Route path="*" Component={NotFound} />
+          </Routes>
+        </main>
       </Router>
-    </>
+    </div>
   )
 }
-
-export default App
