@@ -1,0 +1,37 @@
+.main-button {
+  background-color: var(--primary-500);
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: var(--primary-700);
+}
+
+.success-button {
+  background-color: var(--success-500);
+}
+
+.success-button:hover {
+  background-color: var(--success-700);
+}
+
+.danger-button {
+  background-color: var(--red-500);
+}
+
+.danger-button:hover {
+  background-color: var(--red-700);
+}
+
+.warning-button {
+  background-color: var(--warning-500);
+}
+
+.warning-button:hover {
+  background-color: var(--warning-700);
+}

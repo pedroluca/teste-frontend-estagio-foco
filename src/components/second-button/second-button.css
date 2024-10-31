@@ -1,0 +1,16 @@
+.second-button {
+  background-color: transparent;
+  color: var(--grey-500);
+  padding: .5rem;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+  border: 1px solid var(--grey-500);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.second-button:hover {
+  background-color: var(--grey-100);
+}
