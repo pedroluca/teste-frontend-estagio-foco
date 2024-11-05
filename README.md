@@ -23,7 +23,7 @@ Para rodar este projeto, siga os passos abaixo:
 
 1. **Clone o repositório:**
    ```sh
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/pedroluca/teste-frontend-estagio-foco.git
    ```
 
 2. **Instale o PNPM:**
