@@ -3,7 +3,7 @@
   border-radius: 50px;
 }
 
-.status-canceled {
+.status-cancelled {
   background-color: var(--red-100);
   color: var(--red-500);
 }

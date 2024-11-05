@@ -3,7 +3,6 @@
   flex-direction: column;
   width: 16rem;
   height: 100vh;
-  background-color: #f1f1f1;
 }
 
 .sidebar-header {
@@ -36,5 +35,5 @@
 .sidebar-link:hover,
 .sidebar-link.active img {
   color: var(--primary-500);
-  background-color: var(--primary-100);
+  background-color: var(--primary-50);
 }

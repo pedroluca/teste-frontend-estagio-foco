@@ -6,7 +6,7 @@ interface SecondButtonProps extends React.ComponentProps<'button'> {
 
 export function SecondButton(props: SecondButtonProps) {
   return (
-    <button className='second-button'>
+    <button className='second-button' onClick={props.onClick}>
       {props.children}
     </button>
   )

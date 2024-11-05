@@ -8,4 +8,30 @@
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1rem;
+  text-align: center;
+}
+
+.dashboard-body {
+  background-color: var(--grey-50);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.dashboard-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.resume-section {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+
+.resume-section h3 {
+  font-size: 1rem;
 }

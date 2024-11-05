@@ -6,7 +6,7 @@ interface MainButtonProps extends React.ComponentProps<'button'> {
 
 export function MainButton(props: MainButtonProps) {
   return (
-    <button className={'main-button ' + props.className}>
+    <button className={'main-button ' + props.className} onClick={props.onClick}>
       {props.children}
     </button>
   )

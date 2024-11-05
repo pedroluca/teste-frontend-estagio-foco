@@ -9,10 +9,10 @@
   display: flex;
   width: 35%;
   align-items: center;
-  background-color: var(--grey-100);
+  background-color: var(--grey-25);
   border-radius: 0.25rem;
   padding: .5rem 1rem;
-  border: 1px solid var(--grey-200);
+  border: 1px solid var(--grey-100);
 }
 
 .headerbar-search input {
@@ -26,13 +26,13 @@
 }
 
 .headerbar-search input::placeholder {
-  color: var(--grey-600);
+  color: var(--grey-400);
 }
 
 .headerbar-search svg {
   width: 1.3rem;
   height: 1.3rem;
-  color: var(--grey-500);
+  color: var(--grey-400);
 }
 
 .headerbar-icons {

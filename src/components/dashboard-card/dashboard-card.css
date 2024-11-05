@@ -1,0 +1,19 @@
+.dashboard-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.7rem;
+  flex: 1;
+}
+
+.dashboard-card h2 {
+  font-size: 1.1rem;
+  color: var(--grey-700)
+}
+
+.dashboard-card-row {
+  display: flex;
+  gap: 1rem;
+}
