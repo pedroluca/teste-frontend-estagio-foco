@@ -9,6 +9,18 @@
   font-weight: 400;
   margin-bottom: 1rem;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.new-reservation-button {
+  color: #fff;
+}
+
+.hidden-button {
+  visibility: hidden;
 }
 
 .dashboard-body {
@@ -34,4 +46,131 @@
 
 .resume-section h3 {
   font-size: 1rem;
+  font-weight: 500;
+}
+
+.resume-section p {
+  margin-top: .5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-500);
+}
+
+.room-information-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.rooms-information-card {
+  border: 1px solid var(--grey-200);
+  border-radius: 8px;
+  padding: .7rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: .3rem;
+}
+
+.rooms-information-card h2 {
+  color: var(--grey-500);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.rooms-information-card div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rooms-information-card div svg {
+  cursor: pointer;
+}
+
+.room-information-offert {
+  border-radius: 5px !important;
+}
+
+.room-information-count {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.room-information-card-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-500);
+}
+
+.room-information-card-price span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--grey-500);
+}
+
+.status-rooms-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.status-rooms {
+  display: flex;
+  gap: .7rem;
+  flex-direction: column;
+  width: 50%;
+}
+
+.status-rooms p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-rooms p:first-child {
+  font-weight: 500;
+  color: var(--grey-500);
+}
+
+.statistics-buttons-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: -2.3rem;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.reviews-more-icon {
+  align-self: flex-end;
+  margin-top: -2.3rem;
+  cursor: pointer;
+}
+
+.review-item {
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-item > p {
+  font-weight: 500;
+}
+
+.review-item:not(:last-child) {
+  border-bottom: 1px solid var(--grey-300);
+}
+
+.review-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  color: var(--grey-700);
+}
+
+.review-item-text p:not(:first-child) {
+  color: var(--grey-400);
 }
