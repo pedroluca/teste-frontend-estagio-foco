@@ -352,9 +352,13 @@ export function NewReservation() {
                       <td>
                         <label>
                           Telefone:
-                          <InputMask mask='(99) 9 9999-9999' value={responsible.phone} onChange={handleInputChange}>
-                            {(inputProps: React.InputHTMLAttributes<HTMLInputElement>) => <input {...inputProps} type='tel' name='phone' placeholder='(00) 0 0000-0000' />}
-                          </InputMask>
+                          <InputMask
+                            mask="(99) 9 9999-9999"
+                            maskChar={null}
+                            type="tel"
+                            name="phone"
+                            placeholder="(00) 0 0000-0000"
+                          />
                         </label>
                       </td>
                     </tr>
@@ -362,9 +366,13 @@ export function NewReservation() {
                       <td>
                         <label>
                           Documento:
-                          <InputMask mask='999.999.999-99' value={responsible.document} onChange={handleInputChange}>
-                            {(inputProps: React.InputHTMLAttributes<HTMLInputElement>) => <input {...inputProps} type='text' name='document' placeholder='000.000.000-00' />}
-                          </InputMask>
+                          <InputMask
+                            mask="999.999.999-99"
+                            maskChar={null}
+                            type="text"
+                            name="document"
+                            placeholder="000.000.000-00"
+                          />
                         </label>
                       </td>
                       <td colSpan={2}>
