@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import InputMask from 'react-input-mask'
 import { MainButton } from '../../components/main-button/main-button'
 import { RoundButton } from '../../components/round-button/round-button'
 import { Minus, Plus, X } from 'lucide-react'
@@ -351,7 +352,9 @@ export function NewReservation() {
                       <td>
                         <label>
                           Telefone:
-                          <input type='tel' name='phone' value={responsible.phone} onChange={handleInputChange} placeholder='(00) 0 0000-0000' pattern='\(\d{2}\) \d \d{4}-\d{4}' inputMode='tel' />
+                          <InputMask mask='(99) 9 9999-9999' value={responsible.phone} onChange={handleInputChange}>
+                            {(inputProps: React.InputHTMLAttributes<HTMLInputElement>) => <input {...inputProps} type='tel' name='phone' placeholder='(00) 0 0000-0000' />}
+                          </InputMask>
                         </label>
                       </td>
                     </tr>
@@ -359,7 +362,9 @@ export function NewReservation() {
                       <td>
                         <label>
                           Documento:
-                          <input type='text' name='document' value={responsible.document} onChange={handleInputChange} placeholder='000.000.000-00' pattern='\d{3}\.\d{3}\.\d{3}-\d{2}' inputMode='numeric' />
+                          <InputMask mask='999.999.999-99' value={responsible.document} onChange={handleInputChange}>
+                            {(inputProps: React.InputHTMLAttributes<HTMLInputElement>) => <input {...inputProps} type='text' name='document' placeholder='000.000.000-00' />}
+                          </InputMask>
                         </label>
                       </td>
                       <td colSpan={2}>
