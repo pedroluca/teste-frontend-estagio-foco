@@ -22,9 +22,9 @@ Este projeto é uma aplicação de reservas desenvolvida utilizando React, TypeS
 Para rodar este projeto, siga os passos abaixo:
 
 1. **Clone o repositório:**
-   ```sh
-   git clone https://github.com/pedroluca/teste-frontend-estagio-foco.git
-   ```
+  ```sh
+  git clone https://github.com/pedroluca/teste-frontend-estagio-foco.git
+  ```
 
 2. **Instale o PNPM:**
   ```sh
