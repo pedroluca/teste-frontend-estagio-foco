@@ -1,7 +1,8 @@
 .headerbar {
-  height: 6rem;
+  height: 6rem !important;
   display: flex;
   align-items: center;
+  padding: 3rem 0;
   padding-left: 1rem;
 }
 
