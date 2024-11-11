@@ -7,7 +7,7 @@ import { Sidebar } from './components/sidebar/sidebar'
 import { NotFound } from './pages/not-found/not-found'
 import { Headerbar } from './components/headerbar/headerbar'
 
-export function App() {
+function App() {
 
   return (
     <div className='page-holder'>
@@ -26,3 +26,5 @@ export function App() {
     </div>
   )
 }
+
+export default App
