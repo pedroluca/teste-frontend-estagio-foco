@@ -67,7 +67,7 @@ export function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/src/mock/dashboard.json')
+        const response = await fetch('./src/mock/dashboard.json')
         const result = await response.json()
         setData(result.data)
       } catch (error) {
